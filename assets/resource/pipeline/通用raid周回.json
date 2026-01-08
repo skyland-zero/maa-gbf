@@ -1,0 +1,319 @@
+{
+    "刷新": {
+        "recognition": "TemplateMatch",
+        "template": "刷新.png",
+        "threshold": 0.7,
+        "roi": [
+            615,
+            431,
+            89,
+            102
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "选择raid",
+            "选择raid2",
+            "刷新"
+        ]
+    },
+    "选择raid": {
+        "recognition": "TemplateMatch",
+        "template": "选择raid.png",
+        "threshold": 0.7,
+        "roi": [
+            227,
+            644,
+            295,
+            851
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "选择队伍",
+            "BP"
+        ]
+    },
+    "选择raid2": {
+        "recognition": "TemplateMatch",
+        "template": "选择raid2.png",
+        "threshold": 0.7,
+        "roi": [
+            227,
+            644,
+            295,
+            851
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "选择队伍",
+            "BP"
+        ]
+    },
+    "选择队伍": {
+        "recognition": "TemplateMatch",
+        "template": "选择队伍.png",
+        "threshold": 0.7,
+        "roi": [
+            232,
+            40,
+            247,
+            80
+        ],
+        "timeout": 120000,
+        "next": [
+            "选择队伍确认"
+        ]
+    },
+    "选择队伍确认": {
+        "recognition": "TemplateMatch",
+        "template": "选择队伍确认.png",
+        "threshold": 0.7,
+        "roi": [
+            416,
+            955,
+            248,
+            261
+        ],
+        "timeout": 120000,
+        "action": "Click",
+        "next": [
+            "黑屏A",
+            "FA"
+        ]
+    },
+    "黑屏A": {
+        "recognition": "TemplateMatch",
+        "template": "黑屏A.png",
+        "threshold": 0.7,
+        "roi": [
+            93,
+            548,
+            558,
+            511
+        ],
+        "timeout": 1200000,
+        "action": "Click",
+        "next": [
+            "胜利结束",
+            "获得经验",
+            "NEXT"
+        ]
+    },
+    "FA": {
+        "recognition": "TemplateMatch",
+        "template": "FA.png",
+        "threshold": 0.7,
+        "roi": [
+            10,
+            612,
+            135,
+            153
+        ],
+        "timeout": 1200000,
+        "action": "Click",
+        "next": [
+            "胜利结束",
+            "获得经验",
+            "NEXT"
+        ]
+    },
+    "胜利结束": {
+        "recognition": "TemplateMatch",
+        "template": "胜利结束.png",
+        "threshold": 0.7,
+        "roi": [
+            254,
+            159,
+            191,
+            85
+        ],
+        "timeout": 120000,
+        "next": [
+            "胜利结束确认"
+        ]
+    },
+    "胜利结束确认": {
+        "recognition": "TemplateMatch",
+        "template": "胜利结束确认.png",
+        "threshold": 0.7,
+        "roi": [
+            208,
+            727,
+            306,
+            123
+        ],
+        "timeout": 120000,
+        "action": "Click",
+        "next": [
+            "获得经验确认",
+            "救援一览",
+            "NEXT"
+        ]
+    },
+    "救援一览": {
+        "recognition": "TemplateMatch",
+        "template": "救援一览.png",
+        "threshold": 0.7,
+        "roi": [
+            227,
+            152,
+            266,
+            1253
+        ],
+        "timeout": 120000,
+        "action": "Click",
+        "next": [
+            "好友申请",
+            "刷新"
+        ]
+    },
+    "获得经验": {
+        "recognition": "TemplateMatch",
+        "template": "获得经验.png",
+        "threshold": 0.7,
+        "roi": [
+            218,
+            454,
+            287,
+            159
+        ],
+        "timeout": 120000,
+        "next": [
+            "获得经验确认"
+        ]
+    },
+    "获得经验确认": {
+        "recognition": "TemplateMatch",
+        "template": "获得经验确认.png",
+        "threshold": 0.7,
+        "roi": [
+            224,
+            868,
+            262,
+            321
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "救援一览",
+            "刷新",
+            "好友申请"
+        ]
+    },
+    "ClassUp": {
+        "recognition": "TemplateMatch",
+        "template": "ClassUp.png",
+        "threshold": 0.7,
+        "roi": [
+            108,
+            576,
+            295,
+            391
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "救援一览"
+        ]
+    },
+    "BP": {
+        "recognition": "TemplateMatch",
+        "template": "BP.png",
+        "threshold": 0.7,
+        "roi": [
+            213,
+            426,
+            271,
+            415
+        ],
+        "next": [
+            "BP确认"
+        ]
+    },
+    "BP确认": {
+        "recognition": "TemplateMatch",
+        "template": "BP确认.png",
+        "threshold": 0.7,
+        "roi": [
+            275,
+            781,
+            174,
+            422
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "选择队伍"
+        ]
+    },
+    "关闭": {
+        "recognition": "TemplateMatch",
+        "template": "关闭.png",
+        "threshold": 0.7,
+        "roi": [
+            196,
+            489,
+            344,
+            843
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "刷新",
+            "救援一览",
+            "好友申请"
+        ]
+    },
+    "NEXT": {
+        "recognition": "TemplateMatch",
+        "template": "NEXT.png",
+        "threshold": 0.7,
+        "roi": [
+            485,
+            419,
+            235,
+            616
+        ],
+        "action": "Click",
+        "timeout": 120000,
+        "next": [
+            "胜利结束",
+            "获得经验",
+            "好友申请"
+        ]
+    },
+    "好友申请": {
+        "recognition": "TemplateMatch",
+        "template": "好友申请.png",
+        "threshold": 0.7,
+        "roi": [
+            227,
+            388,
+            256,
+            377
+        ],
+        "timeout": 120000,
+        "next": [
+            "好友申请取消"
+        ]
+    },
+    "好友申请取消": {
+        "recognition": "TemplateMatch",
+        "template": "好友申请取消.png",
+        "threshold": 0.7,
+        "roi": [
+            34,
+            798,
+            342,
+            415
+        ],
+        "timeout": 120000,
+        "action": "Click",
+        "next": [
+            "刷新",
+            "救援一览"
+        ]
+    }
+}
